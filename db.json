@@ -1,5 +1,22 @@
 {
   "notes": [
-    { "id": 1, "title": "json-server", "description": "typicode" }
+    {
+      "title": "Learn CSS",
+      "description": "Learn Advanced CSS",
+      "color": "lightblue",
+      "id": 1
+    },
+    {
+      "title": "Learn Node.js",
+      "description": "Learn Advanced Node.js",
+      "color": "pink",
+      "id": 2
+    },
+    {
+      "title": "Learn Vue.js",
+      "description": "Learn Vue.js",
+      "color": "greenyellow",
+      "id": 3
+    }
   ]
 }

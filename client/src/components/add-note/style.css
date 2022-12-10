@@ -1,0 +1,62 @@
+.add-note {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-note .form {
+  width: 70%;
+}
+
+.form .form-item {
+  margin-bottom: 1rem;
+}
+
+.form-item input[type="text"],
+.form-item textarea {
+  outline: none;
+  width: 100%;
+  resize: none;
+  font-size: x-large;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.form-item input[type="text"]::placeholder,
+.form-item textarea::placeholder {
+  font-size: medium;
+}
+
+.form-item.colors {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input[type="radio"] {
+  appearance: none;
+  margin: 0;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 100%;
+}
+
+input[type="radio"]:checked {
+  border: 1px solid #333;
+  transform: scale(1.2);
+}
+
+.form-btn {
+  text-align: center;
+}
+
+.form-btn button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.5rem 4rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
